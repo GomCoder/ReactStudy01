@@ -8,8 +8,9 @@ import reportWebVitals from './reportWebVitals';
 //import Clock from './chapter_04/Clock';
 //import CommentList from './chapter_05/CommentList';
 //import NotificationList from './chapter_06/NotificationList';
-import Acommodate from './chapter_07/Acommodate';
-
+//import Acommodate from './chapter_07/Acommodate';
+//import ConfirmButtonClassField from './chapter_08/ConfirmButtonClassField';
+import ConfirmButtonFunctionComponent from './chapter_08/ConfirmButtonFunctionComponent';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -44,10 +45,25 @@ root.render(
 );
 */
 
+/* chapter07
 root.render(
   <React.StrictMode>
     <Acommodate />
   </React.StrictMode>,
+);
+*/
+/* chapter08 - 1
+root.render(
+  <React.StrictMode>
+    <ConfirmButtonClassField />
+  </React.StrictMode>
+);
+*/
+
+root.render(
+  <React.StrictMode>
+    <ConfirmButtonFunctionComponent />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
