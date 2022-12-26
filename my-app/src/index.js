@@ -10,7 +10,8 @@ import reportWebVitals from './reportWebVitals';
 //import NotificationList from './chapter_06/NotificationList';
 //import Acommodate from './chapter_07/Acommodate';
 //import ConfirmButtonClassField from './chapter_08/ConfirmButtonClassField';
-import ConfirmButtonFunctionComponent from './chapter_08/ConfirmButtonFunctionComponent';
+//import ConfirmButtonFunctionComponent from './chapter_08/ConfirmButtonFunctionComponent';
+import LandingPage from './chapter_09/LandingPage';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -60,11 +61,20 @@ root.render(
 );
 */
 
+/* chapter09
 root.render(
   <React.StrictMode>
     <ConfirmButtonFunctionComponent />
   </React.StrictMode>
 );
+*/
+
+root.render(
+  <React.StrictMode>
+    <LandingPage />
+  </React.StrictMode>
+);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
