@@ -12,8 +12,8 @@ import reportWebVitals from './reportWebVitals';
 //import ConfirmButtonClassField from './chapter_08/ConfirmButtonClassField';
 //import ConfirmButtonFunctionComponent from './chapter_08/ConfirmButtonFunctionComponent';
 //import LandingPage from './chapter_09/LandingPage';
-import AttendanceBook from './chapter_10/AttendanceBook';
-
+//import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -78,10 +78,17 @@ root.render(
   </React.StrictMode>
 );
 */
-
+/* chapter10
 root.render(
   <React.StrictMode>
     <AttendanceBook />
+  </React.StrictMode>
+);
+*/
+
+root.render(
+  <React.StrictMode>
+    <SignUp />
   </React.StrictMode>
 );
 
