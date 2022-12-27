@@ -11,7 +11,9 @@ import reportWebVitals from './reportWebVitals';
 //import Acommodate from './chapter_07/Acommodate';
 //import ConfirmButtonClassField from './chapter_08/ConfirmButtonClassField';
 //import ConfirmButtonFunctionComponent from './chapter_08/ConfirmButtonFunctionComponent';
-import LandingPage from './chapter_09/LandingPage';
+//import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
+
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -69,9 +71,17 @@ root.render(
 );
 */
 
+/* chapter10
 root.render(
   <React.StrictMode>
     <LandingPage />
+  </React.StrictMode>
+);
+*/
+
+root.render(
+  <React.StrictMode>
+    <AttendanceBook />
   </React.StrictMode>
 );
 
